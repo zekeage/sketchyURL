@@ -4224,3 +4224,91 @@ Processing by UrlsController#show as HTML
   [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TrainsexLuckyTubejapanese"]]
 Redirected to http://www.usps.com
 Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:19:40 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:19:40.964687"], ["newurl", "AmateurcreampieEnglishdubbedhentaiYogapants"], ["oldurl", "http://www.usps.com"], ["updated_at", "2015-08-30 06:19:40.964687"]]
+  [1m[35m (171.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/AmateurcreampieEnglishdubbedhentaiYogapants/edit
+Completed 302 Found in 180ms (ActiveRecord: 173.1ms)
+
+
+Started GET "/urls/AmateurcreampieEnglishdubbedhentaiYogapants/edit" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"AmateurcreampieEnglishdubbedhentaiYogapants"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "AmateurcreampieEnglishdubbedhentaiYogapants"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 63ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:19:41 -0700
+
+
+Started GET "/urls/AmateurcreampieEnglishdubbedhentaiYogapants/edit" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"AmateurcreampieEnglishdubbedhentaiYogapants"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "AmateurcreampieEnglishdubbedhentaiYogapants"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 68ms (Views: 64.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:20:03 -0700
+
+
+Started GET "/urls/AmateurcreampieEnglishdubbedhentaiYogapants" for 127.0.0.1 at 2015-08-29 23:20:23 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"AmateurcreampieEnglishdubbedhentaiYogapants"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "AmateurcreampieEnglishdubbedhentaiYogapants"]]
+Redirected to http://www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
