@@ -10391,3 +10391,268 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-30 11:34:29 -07
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-30 11:34:29 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-30 11:41:23 -0700
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-08-30 11:41:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.0ms)
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:28 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-30 12:01:34 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.facebook.com"}, "commit"=>"      Transform this hideous url into something beautiful!      "}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 19:01:34.780798"], ["newurl", "PeggingWebcamSexmassage"], ["oldurl", "http://www.facebook.com"], ["updated_at", "2015-08-30 19:01:34.780798"]]
+  [1m[35m (162.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/PeggingWebcamSexmassage/edit
+Completed 302 Found in 169ms (ActiveRecord: 162.1ms)
+
+
+Started GET "/urls/PeggingWebcamSexmassage/edit" for 127.0.0.1 at 2015-08-30 12:01:34 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"PeggingWebcamSexmassage"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "PeggingWebcamSexmassage"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-30 12:01:35 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:40 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:40 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-30 12:01:40 -0700
+
+
+Started GET "/urls/PeggingWebcamSexmassage/edit" for 127.0.0.1 at 2015-08-30 12:06:00 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"PeggingWebcamSexmassage"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "PeggingWebcamSexmassage"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 64ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-30 12:06:01 -0700
+
+
+Started GET "/urls/PeggingWebcamSexmassage" for 127.0.0.1 at 2015-08-30 12:06:07 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"PeggingWebcamSexmassage"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "PeggingWebcamSexmassage"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 26ms (ActiveRecord: 0.0ms)
