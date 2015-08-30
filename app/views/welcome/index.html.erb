@@ -1,0 +1,18 @@
+
+<head>
+<title>Enter a URL to make it sketchy:</title>
+</head>
+<body>
+
+<%= form_for :url,url: urls_path do |f| %>
+  <p>
+    <%= f.label :"Enter a URL to make it sketchy:" %><br>
+    <%= f.text_field :oldurl %>
+  </p>
+ 
+  <p>
+    <%= f.submit :"Make SketchyURL" %>
+  </p>
+<% end %>
+
+</body>

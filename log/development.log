@@ -1,0 +1,3364 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:24:18 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 33ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:31:12 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 32ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:31:14 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:31:25 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.8/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2015-08-29 18:31:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1550ms (Views: 1550.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:31:56 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:32:43 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:32:43 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:43 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:47 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:32:48 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:41:32 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 640ms (Views: 627.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:41:33 -0700
+
+
+Started GET "/new" for 127.0.0.1 at 2015-08-29 18:41:37 -0700
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.1ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-08-29 18:44:55 -0700
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2015-08-29 18:45:48 -0700
+
+ActionController::RoutingError (No route matches [GET] "/new"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (12.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.1ms)
+
+
+Started GET "/urls/new" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+Processing by UrlsController#new as HTML
+  Rendered urls/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 92ms (Views: 74.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:45:52 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:56:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 57.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:39 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:56:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 64ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:23 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:26 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:57:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 94ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:57:42 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (46.0ms)
+Completed 200 OK in 99ms (Views: 98.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:58:03 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:58:58 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:58:58 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:58:58 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:59:45 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 18:59:46 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 18:59:55 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:25: syntax error, unexpected tFID, expecting ')'
+...nd=( f.submit :Make SKetchyURL!);@output_buffer.safe_append='
+...                               ^):
+  app/views/welcome/index.html.erb:25: syntax error, unexpected tFID, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:02 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  </p>
+   ^
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+unmatched close parenthesis: /p>
+<% end );@output_buffer.safe_append='
+
+</
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: unterminated string meets end of file
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+  app/views/welcome/index.html.erb:30: unterminated string meets end of file
+  app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (61.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:13 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  </p>
+   ^
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+unmatched close parenthesis: /p>
+<% end );@output_buffer.safe_append='
+
+</
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: unterminated string meets end of file
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+  app/views/welcome/index.html.erb:30: unterminated string meets end of file
+  app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:18 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  </p>
+   ^
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+unmatched close parenthesis: /p>
+<% end );@output_buffer.safe_append='
+
+</
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: unterminated string meets end of file
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+  app/views/welcome/index.html.erb:30: unterminated string meets end of file
+  app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  </p>
+   ^
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+unmatched close parenthesis: /p>
+<% end );@output_buffer.safe_append='
+
+</
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: unterminated string meets end of file
+D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/welcome/index.html.erb:26: syntax error, unexpected '<'
+  app/views/welcome/index.html.erb:29: unknown regexp options - bdy
+  app/views/welcome/index.html.erb:30: unterminated string meets end of file
+  app/views/welcome/index.html.erb:30: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:34 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:45 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:00:58 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 47ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:00:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 67ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:19 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 46ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:01:34 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:02:18 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:02:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:02:18 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:02:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:02:36 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:02:36 -0700
+
+
+Started POST "/welcome/index" for 127.0.0.1 at 2015-08-29 19:04:00 -0700
+
+ActionController::RoutingError (No route matches [POST] "/welcome/index"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:04:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:04:59 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:04:59 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:05:33 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ffer.append=  form_for :url url/create do |f| @output_buffer...
+...                               ^):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:05:37 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 10ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...append=  form_for :url url_path do |f| @output_buffer.safe_a...
+...                               ^):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:05:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...append=  form_for :url url_path do |f| @output_buffer.safe_a...
+...                               ^):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (58.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:06:02 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...append=  form_for :url url_path do |f| @output_buffer.safe_a...
+...                               ^):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (59.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:06:25 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ppend=  form_for :url urls_path do |f| @output_buffer.safe_a...
+...                               ^):
+  app/views/welcome/index.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (60.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:06:52 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:06:55 -0700
+
+AbstractController::ActionNotFound (The action 'create' could not be found for UrlsController):
+  actionpack (4.1.8) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:07:54 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:07:56 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"aasdfas"}, "commit"=>"Make SketchyURL"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:08:27 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"aasdfasdgdg"}, "commit"=>"Make SketchyURL"}
+  Rendered text template (0.0ms)
+Completed 200 OK in 1ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (518.1ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (133.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUrls (20150830020941)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  CREATE TABLE "urls" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "oldurl" varchar(255), "newurl" varchar(255), "created_at" datetime, "updated_at" datetime) 
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150830020941"]]
+  [1m[35m (184.3ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:12:31 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 125ms (Views: 112.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:12:32 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:12:35 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"fasdafsd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-08-30 02:12:35.019641"], ["updated_at", "2015-08-30 02:12:35.019641"]]
+  [1m[35m (198.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/1
+Completed 302 Found in 221ms (ActiveRecord: 201.2ms)
+
+
+Started GET "/urls/1" for 127.0.0.1 at 2015-08-29 19:12:35 -0700
+
+AbstractController::ActionNotFound (The action 'show' could not be found for UrlsController):
+  actionpack (4.1.8) lib/abstract_controller/base.rb:131:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.5) lib/rack/etag.rb:23:in `call'
+  rack (1.5.5) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.5) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (1.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:16:13 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"fasdafsd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-08-30 02:16:13.368843"], ["oldurl", "fasdafsd"], ["updated_at", "2015-08-30 02:16:13.368843"]]
+  [1m[36m (115.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/2
+Completed 302 Found in 126ms (ActiveRecord: 116.1ms)
+
+
+Started GET "/urls/2" for 127.0.0.1 at 2015-08-29 19:16:13 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `oldurl' for nil:NilClass):
+    1: <p>
+    2:   <strong>SketchyURL:</strong>
+    3:   <%= @url.oldurl %>
+    4: </p>
+  app/views/urls/show.html.erb:3:in `_app_views_urls_show_html_erb___59853092_47163000'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (43.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:17:48 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"fasdafsd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-08-30 02:17:48.834770"], ["oldurl", "fasdafsd"], ["updated_at", "2015-08-30 02:17:48.834770"]]
+  [1m[36m (223.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/3
+Completed 302 Found in 234ms (ActiveRecord: 224.2ms)
+
+
+Started GET "/urls/3" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:17:49 -0700
+
+
+Started GET "/urls/3" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 79ms (Views: 74.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:18:20 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:19:16 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"fasdafsd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:19:16.589896"], ["newurl", "test"], ["oldurl", "fasdafsd"], ["updated_at", "2015-08-30 02:19:16.589896"]]
+  [1m[35m (207.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/4
+Completed 302 Found in 218ms (ActiveRecord: 209.1ms)
+
+
+Started GET "/urls/4" for 127.0.0.1 at 2015-08-29 19:19:16 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 112ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:19:17 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:22:28 -0700
+
+SyntaxError (D:/Shared Documents/GitHub/sketchyURL/app/controllers/urls_controller.rb:19: dynamic constant assignment
+		Pbank = ["abbey brooks","abused","ac...
+		       ^
+D:/Shared Documents/GitHub/sketchyURL/app/controllers/urls_controller.rb:20: dynamic constant assignment
+		Rangen = Random.new;
+		        ^):
+  app/controllers/urls_controller.rb:19: dynamic constant assignment
+  app/controllers/urls_controller.rb:20: dynamic constant assignment
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (70.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"fasdafsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:23:05.597728"], ["newurl", "GirlfuckPokemonpornMotherandson"], ["oldurl", "fasdafsdasd"], ["updated_at", "2015-08-30 02:23:05.597728"]]
+  [1m[35m (198.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/5
+Completed 302 Found in 209ms (ActiveRecord: 199.1ms)
+
+
+Started GET "/urls/5" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 65.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:05 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:06 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:06 -0700
+
+
+Started GET "/urls/5" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1  [["id", 5]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:14 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"fasdafsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:23:50.287670"], ["newurl", "www.sketchyURL.com/AssfaceCosplaypornCatwomanporn"], ["oldurl", "fasdafsdasd"], ["updated_at", "2015-08-30 02:23:50.287670"]]
+  [1m[36m (140.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/6
+Completed 302 Found in 151ms (ActiveRecord: 141.1ms)
+
+
+Started GET "/urls/6" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 81ms (Views: 76.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:23:50 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:40:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 115ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:40:51 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:40:52 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>""}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:40:52.208485"], ["newurl", "www.sketchyURL.com/MonkleighJenavevejolieIndiangirlmms"], ["oldurl", ""], ["updated_at", "2015-08-30 02:40:52.208485"]]
+  [1m[35m (178.1ms)[0m  commit transaction
+Redirected to 
+Completed 500 Internal Server Error in 199ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:41:38 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>""}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (22.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:41:38.765910"], ["newurl", "www.sketchyURL.com/IndiansexvideoCheerleaderHandjob"], ["oldurl", ""], ["updated_at", "2015-08-30 02:41:38.765910"]]
+  [1m[36m (175.1ms)[0m  [1mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 201ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:41:42 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:41:43 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdg"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:41:43.918515"], ["newurl", "www.sketchyURL.com/VintagepornShitzLatchkeychild"], ["oldurl", "sfdg"], ["updated_at", "2015-08-30 02:41:43.918515"]]
+  [1m[35m (192.2ms)[0m  commit transaction
+Redirected to 
+Completed 500 Internal Server Error in 199ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:42:21 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgs"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:42:21.448289"], ["newurl", "www.sketchyURL.com/CockcumIndiangirlpornSharingmywife"], ["oldurl", "sfdgs"], ["updated_at", "2015-08-30 02:42:21.448289"]]
+  [1m[36m (126.1ms)[0m  [1mcommit transaction[0m
+Completed 404 Not Found in 134ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url without an ID):
+  app/controllers/urls_controller.rb:16:in `edit'
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:42:54 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:42:54.141329"], ["newurl", "www.sketchyURL.com/PaulinajamesInterracialwifeWetporn"], ["oldurl", "sfdgsd"], ["updated_at", "2015-08-30 02:42:54.141329"]]
+  [1m[35m (138.1ms)[0m  commit transaction
+Completed 500 Internal Server Error in 149ms
+
+NoMethodError (undefined method `/' for #<Url:0x64da6f0>):
+  app/controllers/urls_controller.rb:10:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:50 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:43:50.305625"], ["newurl", "www.sketchyURL.com/ExgirlfriendEbonyOldschoolporn"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:50.305625"]]
+  [1m[36m (197.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000edit
+Completed 302 Found in 209ms (ActiveRecord: 198.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:50 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:43:50.552790"], ["newurl", "www.sketchyURL.com/DariagloverCumUrinalspy"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:50.552790"]]
+  [1m[35m (168.1ms)[0m  commit transaction
+Redirected to http://localhost:3000edit
+Completed 302 Found in 181ms (ActiveRecord: 169.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:50 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:43:50.769942"], ["newurl", "www.sketchyURL.com/LesbianBigtitsatschoolXxxbigtits"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:50.769942"]]
+  [1m[36m (184.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000edit
+Completed 302 Found in 197ms (ActiveRecord: 185.2ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:50 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:43:51.001131"], ["newurl", "www.sketchyURL.com/AnallickingSexvideosColombianporn"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:51.001131"]]
+  [1m[35m (163.1ms)[0m  commit transaction
+Redirected to http://localhost:3000edit
+Completed 302 Found in 176ms (ActiveRecord: 165.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:51 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (4.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:43:51.209250"], ["newurl", "www.sketchyURL.com/BitchAnalmassageBasterds"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:51.209250"]]
+  [1m[36m (176.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000edit
+Completed 302 Found in 188ms (ActiveRecord: 181.2ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:51 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:43:51.418405"], ["newurl", "www.sketchyURL.com/RebecalinaresDanadearmondFuckporn"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:51.418405"]]
+  [1m[35m (123.1ms)[0m  commit transaction
+Redirected to http://localhost:3000edit
+Completed 302 Found in 136ms (ActiveRecord: 124.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:43:51 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasd"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 02:43:51.888732"], ["newurl", "www.sketchyURL.com/FaggotLesbianamateurGreattits"], ["oldurl", "sfdgsdasd"], ["updated_at", "2015-08-30 02:43:51.888732"]]
+  [1m[36m (154.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000edit
+Completed 302 Found in 166ms (ActiveRecord: 156.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:44:08 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasda"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:44:08.720644"], ["newurl", "www.sketchyURL.com/OralqueensKidsPornmassage"], ["oldurl", "sfdgsdasda"], ["updated_at", "2015-08-30 02:44:08.720644"]]
+  [1m[35m (120.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/19/edit
+Completed 302 Found in 128ms (ActiveRecord: 120.1ms)
+
+
+Started GET "/urls/19/edit" for 127.0.0.1 at 2015-08-29 19:44:08 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"19"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 19]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 90ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:44:09 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:45:08 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 4ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"urls"} missing required keys: [:id]):
+  app/controllers/urls_controller.rb:8:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:45:24 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:45:24.891719"], ["newurl", "asdTiffanyrayneQuarterbackpornJapanesegame"], ["oldurl", "sfdgsdasdas"], ["updated_at", "2015-08-30 02:45:24.891719"]]
+  [1m[35m (142.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/20/edit
+Completed 302 Found in 153ms (ActiveRecord: 143.1ms)
+
+
+Started GET "/urls/20/edit" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 20]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 87ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:45:25 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:46:20 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 7ms
+
+NameError (undefined local variable or method `base_url' for #<UrlsController:0x5f999b8>):
+  app/controllers/urls_controller.rb:24:in `original_url'
+  app/controllers/urls_controller.rb:8:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:46:45.190666"], ["newurl", "http://localhost:3000/urlsNiceblowjobAsianbbwLilythai"], ["oldurl", "sfdgsdasdas"], ["updated_at", "2015-08-30 02:46:45.190666"]]
+  [1m[35m (151.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/21/edit
+Completed 302 Found in 164ms (ActiveRecord: 152.2ms)
+
+
+Started GET "/urls/21/edit" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 21]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 82ms (Views: 76.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:46:45 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:47:48 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `+@' for "\\":String):
+  app/controllers/urls_controller.rb:8:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:48:09 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `+@' for " ":String):
+  app/controllers/urls_controller.rb:8:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:48:19 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `+@' for "TubeadultRarepornWhore":String):
+  app/controllers/urls_controller.rb:8:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (64.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:48:40 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sfdgsdasdas"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:48:40.938792"], ["newurl", "http://localhost:3000/urlsFirstanalRileyevansBigblackcock"], ["oldurl", "sfdgsdasdas"], ["updated_at", "2015-08-30 02:48:40.938792"]]
+  [1m[35m (113.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/22/edit
+Completed 302 Found in 124ms (ActiveRecord: 114.1ms)
+
+
+Started GET "/urls/22/edit" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 22]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 85ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:48:41 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 115ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:11 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdf"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 02:57:14.245437"], ["newurl", "http://localhost:3000/urlsPimmelHousewifeFiestaporno"], ["oldurl", "sdf"], ["updated_at", "2015-08-30 02:57:14.245437"]]
+  [1m[35m (131.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/23/edit
+Completed 302 Found in 150ms (ActiveRecord: 131.1ms)
+
+
+Started GET "/urls/23/edit" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 23]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 88ms (Views: 81.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 19:57:14 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfs"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "id", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:00:16.342927"], ["id", 0], ["newurl", "http://localhost:3000/urlsDild0sWankSmokingporn"], ["oldurl", "sdfs"], ["updated_at", "2015-08-30 03:00:16.342927"]]
+  [1m[35m (228.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/0/edit
+Completed 302 Found in 238ms (ActiveRecord: 229.2ms)
+
+
+Started GET "/urls/0/edit" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"0"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1[0m  [["id", 0]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 79ms (Views: 77.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:00:16 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:00:29 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfsf"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "id", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:00:29.457519"], ["id", 0], ["newurl", "http://localhost:3000/urlsYoungFacialcompilationLelulove"], ["oldurl", "sdfsf"], ["updated_at", "2015-08-30 03:00:29.457519"]]
+SQLite3::ConstraintException: UNIQUE constraint failed: urls.id: INSERT INTO "urls" ("created_at", "id", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?, ?)
+  [1m[35m (0.0ms)[0m  rollback transaction
+Completed 500 Internal Server Error in 4ms
+
+ActiveRecord::RecordNotUnique (SQLite3::ConstraintException: UNIQUE constraint failed: urls.id: INSERT INTO "urls" ("created_at", "id", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?, ?)):
+  app/controllers/urls_controller.rb:11:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:01:01 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfsfa"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 8ms
+
+NameError (undefined local variable or method `url' for #<UrlsController:0x5f30a78>):
+  app/controllers/urls_controller.rb:9:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (84.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:02:25 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfsfaa"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `id=' for nil:NilClass):
+  app/controllers/urls_controller.rb:9:in `block in create'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfsfaasa"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 03:04:39.512391"], ["newurl", "http://localhost:3000/urlsVaginaOldmancreampieKanker"], ["oldurl", "sdfsfaasa"], ["updated_at", "2015-08-30 03:04:39.512391"]]
+  [1m[36m (194.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/24/edit
+Completed 302 Found in 204ms (ActiveRecord: 195.1ms)
+
+
+Started GET "/urls/24/edit" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"id"=>"24"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."id" = ? LIMIT 1  [["id", 24]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 65.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:04:39 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:12:53 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfsfaasa"}, "commit"=>"Make SketchyURL"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `set_primary_key' for #<Class:0x64c8450>):
+  app/models/url.rb:2:in `<class:Url>'
+  app/models/url.rb:1:in `<top (required)>'
+  app/controllers/urls_controller.rb:7:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 115ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:36 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 20:26:38 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:26:39 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:26:41 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfa"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-08-30 03:26:41.188582"], ["oldurl", "sdfa"], ["updated_at", "2015-08-30 03:26:41.188582"]]
+  [1m[35m (175.1ms)[0m  commit transaction
+Redirected to 
+Completed 500 Internal Server Error in 197ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"edit", :controller=>"urls", :id=>25}):
+  app/controllers/urls_controller.rb:9:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:27:53 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfaa"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)  [["created_at", "2015-08-30 03:27:53.156965"], ["oldurl", "sdfaa"], ["updated_at", "2015-08-30 03:27:53.156965"]]
+  [1m[36m (220.2ms)[0m  [1mcommit transaction[0m
+Redirected to 
+Completed 500 Internal Server Error in 228ms
+
+ActionController::UrlGenerationError (No route matches {:action=>"edit", :controller=>"urls", :id=>26}):
+  app/controllers/urls_controller.rb:9:in `create'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (66.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:28:11 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfaaa"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-08-30 03:28:11.931816"], ["oldurl", "sdfaaa"], ["updated_at", "2015-08-30 03:28:11.931816"]]
+  [1m[35m (161.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/27/edit
+Completed 302 Found in 171ms (ActiveRecord: 161.1ms)
+
+
+Started GET "/urls/27/edit" for 127.0.0.1 at 2015-08-29 20:28:12 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"27"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "27"]]
+Completed 404 Not Found in 8ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url with 'newurl'=27):
+  app/controllers/urls_controller.rb:15:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:29:11 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfaaaa"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-08-30 03:29:11.078529"], ["oldurl", "sdfaaaa"], ["updated_at", "2015-08-30 03:29:11.078529"]]
+  [1m[35m (178.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/28/edit
+Completed 302 Found in 196ms (ActiveRecord: 180.1ms)
+
+
+Started GET "/urls/28/edit" for 127.0.0.1 at 2015-08-29 20:29:11 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"28"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "28"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url with 'newurl'=28):
+  app/controllers/urls_controller.rb:16:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:29:27 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfaaaaa"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "oldurl", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2015-08-30 03:29:27.325685"], ["oldurl", "sdfaaaaa"], ["updated_at", "2015-08-30 03:29:27.325685"]]
+  [1m[35m (150.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/29/edit
+Completed 302 Found in 159ms (ActiveRecord: 152.2ms)
+
+
+Started GET "/urls/29/edit" for 127.0.0.1 at 2015-08-29 20:29:27 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"29"}
+  [1m[36mUrl Load (1.5ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "29"]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url with 'newurl'=29):
+  app/controllers/urls_controller.rb:17:in `edit'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (65.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"sdfaaaaaa"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:30:35.442932"], ["newurl", "FlickshagwellRoughlesbianpornDodo"], ["oldurl", "sdfaaaaaa"], ["updated_at", "2015-08-30 03:30:35.442932"]]
+  [1m[35m (193.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/FlickshagwellRoughlesbianpornDodo/edit
+Completed 302 Found in 204ms (ActiveRecord: 193.2ms)
+
+
+Started GET "/urls/FlickshagwellRoughlesbianpornDodo/edit" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FlickshagwellRoughlesbianpornDodo"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlickshagwellRoughlesbianpornDodo"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:30:35 -0700
+
+
+Started GET "/urls/FlickshagwellRoughlesbianpornDodo/edit" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FlickshagwellRoughlesbianpornDodo"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FlickshagwellRoughlesbianpornDodo"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 52ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:32:00 -0700
+
+
+Started GET "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo" for 127.0.0.1 at 2015-08-29 20:32:14 -0700
+
+ActionController::RoutingError (No route matches [GET] "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.1ms)
+
+
+Started GET "/urls/0" for 127.0.0.1 at 2015-08-29 20:32:36 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"0"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "0"]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url with 'newurl'=0):
+  app/controllers/urls_controller.rb:14:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (63.0ms)
+
+
+Started GET "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo" for 127.0.0.1 at 2015-08-29 20:33:15 -0700
+
+ActionController::RoutingError (No route matches [GET] "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.0ms)
+
+
+Started GET "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo" for 127.0.0.1 at 2015-08-29 20:33:17 -0700
+
+ActionController::RoutingError (No route matches [GET] "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (66.0ms)
+
+
+Started GET "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo" for 127.0.0.1 at 2015-08-29 20:33:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/urls/FlickshagwellRoughlesbianpornDodo/editFlickshagwellRoughlesbianpornDodo"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:34:03 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"234"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:34:04.319812"], ["newurl", "MariabellucciSelffuckingLatinxxx"], ["oldurl", "234"], ["updated_at", "2015-08-30 03:34:04.319812"]]
+  [1m[35m (121.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/MariabellucciSelffuckingLatinxxx/edit
+Completed 302 Found in 151ms (ActiveRecord: 122.2ms)
+
+
+Started GET "/urls/MariabellucciSelffuckingLatinxxx/edit" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"MariabellucciSelffuckingLatinxxx"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MariabellucciSelffuckingLatinxxx"]]
+  Rendered urls/edit.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 94ms (Views: 91.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:34:04 -0700
+
+
+Started GET "/urls/MariabellucciSelffuckingLatinxxx/editMariabellucciSelffuckingLatinxxx" for 127.0.0.1 at 2015-08-29 20:34:12 -0700
+
+ActionController::RoutingError (No route matches [GET] "/urls/MariabellucciSelffuckingLatinxxx/editMariabellucciSelffuckingLatinxxx"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.1ms)
+
+
+Started GET "/urls/MariabellucciSelffuckingLatinxxx/editMariabellucciSelffuckingLatinxxx" for 127.0.0.1 at 2015-08-29 20:35:31 -0700
+
+ActionController::RoutingError (No route matches [GET] "/urls/MariabellucciSelffuckingLatinxxx/editMariabellucciSelffuckingLatinxxx"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (65.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:38:46 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"234as"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:38:47.308115"], ["newurl", "FilipinaIndiansexGinawild"], ["oldurl", "234as"], ["updated_at", "2015-08-30 03:38:47.308115"]]
+  [1m[35m (193.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/FilipinaIndiansexGinawild/edit
+Completed 302 Found in 223ms (ActiveRecord: 193.1ms)
+
+
+Started GET "/urls/FilipinaIndiansexGinawild/edit" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 112ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:38:47 -0700
+
+
+Started GET "/urls/FilipinaIndiansexGinawild/edit" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 70.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:26 -0700
+
+
+Started GET "/urls/FilipinaIndiansexGinawild" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 45ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:39:38 -0700
+
+
+Started GET "/urls/FilipinaIndiansexGinawild/edit" for 127.0.0.1 at 2015-08-29 20:41:10 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/edit.html.erb within layouts/application (20.0ms)
+Completed 500 Internal Server Error in 32ms
+
+ActionView::Template::Error (undefined local variable or method `n' for #<#<Class:0x57ec628>:0x5a051d8>):
+    1: <p>
+    2:   <strong>SketchyURL:</strong><br>
+    3:   <%= @base[0..n-2]  %>
+    4: </p>
+  app/views/urls/edit.html.erb:3:in `_app_views_urls_edit_html_erb___572136412_47194764'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (44.0ms)
+
+
+Started GET "/urls/FilipinaIndiansexGinawild/edit" for 127.0.0.1 at 2015-08-29 20:41:17 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 65ms (Views: 61.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:18 -0700
+
+
+Started GET "/urls/FilipinaIndiansexGinawild/edit" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:41:34 -0700
+
+
+Started GET "/urls/FilipinaIndiansexGinawild/" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FilipinaIndiansexGinawild"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FilipinaIndiansexGinawild"]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:42:10 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:44:27 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.google.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:44:27.659777"], ["newurl", "XxxmassageCumfountainSkanck"], ["oldurl", "www.google.com"], ["updated_at", "2015-08-30 03:44:27.659777"]]
+  [1m[35m (247.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/XxxmassageCumfountainSkanck/edit
+Completed 302 Found in 256ms (ActiveRecord: 248.2ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck/edit" for 127.0.0.1 at 2015-08-29 20:44:27 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:44:28 -0700
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:33 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:39 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:39 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:44:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://www.rubyonrails.org
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/XxxmassageCumfountainSkanck" for 127.0.0.1 at 2015-08-29 20:45:05 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"XxxmassageCumfountainSkanck"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+Redirected to http://www.rubyonrails.org
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.google.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:45:53.234931"], ["newurl", "FlexibleFagJewish"], ["oldurl", "www.google.com"], ["updated_at", "2015-08-30 03:45:53.234931"]]
+  [1m[35m (139.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/FlexibleFagJewish/edit
+Completed 302 Found in 150ms (ActiveRecord: 139.2ms)
+
+
+Started GET "/urls/FlexibleFagJewish/edit" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlexibleFagJewish"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:45:53 -0700
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:45:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:46:03 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FlexibleFagJewish" for 127.0.0.1 at 2015-08-29 20:46:04 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FlexibleFagJewish"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FlexibleFagJewish"]]
+Redirected to http://localhost:3000www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"http://www.google.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 03:46:27.030568"], ["newurl", "ShizSwedishpornOldgrannyporn"], ["oldurl", "http://www.google.com"], ["updated_at", "2015-08-30 03:46:27.030568"]]
+  [1m[35m (170.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/ShizSwedishpornOldgrannyporn/edit
+Completed 302 Found in 174ms (ActiveRecord: 170.1ms)
+
+
+Started GET "/urls/ShizSwedishpornOldgrannyporn/edit" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"ShizSwedishpornOldgrannyporn"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "ShizSwedishpornOldgrannyporn"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 99ms (Views: 96.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 20:46:27 -0700
+
+
+Started GET "/urls/ShizSwedishpornOldgrannyporn" for 127.0.0.1 at 2015-08-29 20:46:31 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ShizSwedishpornOldgrannyporn"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "ShizSwedishpornOldgrannyporn"]]
+Redirected to http://www.google.com
+Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
