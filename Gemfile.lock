@@ -116,7 +116,6 @@ DEPENDENCIES
   jquery-rails
   mysql2
   rails (= 4.1.8)
-  rake (~> 10.4.2)
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring

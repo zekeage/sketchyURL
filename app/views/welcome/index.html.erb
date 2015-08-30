@@ -1,18 +1,18 @@
-
+<%= stylesheet_link_tag "/assets/stylesheets/welcome.css.css" %>
 <head>
-<title>Enter a URL to make it sketchy:</title>
+<title >Enter a URL to make it sketchy:</title>
 </head>
 <body>
-
+<div id="uform">
 <%= form_for :url,url: urls_path do |f| %>
   <p>
-    <%= f.label :"Enter a URL to make it sketchy:" %><br>
+    <%= f.label :"Please paste your URL into the box below." %><br><br>
     <%= f.text_field :oldurl %>
   </p>
  
   <p>
-    <%= f.submit :"Make SketchyURL" %>
+    <%= f.submit :"      Transform this hideous url into something beautiful!      ", id: "ubutton" %>
   </p>
 <% end %>
-
+</div>
 </body>
