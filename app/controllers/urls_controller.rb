@@ -7,6 +7,12 @@ class UrlsController < ApplicationController
   	temp = randphrase(3)
   	@url = Url.new(url_params)
   	@url.newurl = temp
+  	temp2 = @url.oldurl
+  	temp2 = temp2[0..2]
+  	temp2 = temp2.downcase
+  	if temp2 == 'www'
+  		@url.oldurl = 'http://' + @url.oldurl
+  	end
   	@url.save
   	redirect_to action: "edit", newurl: @url.newurl
   end  

@@ -3362,3 +3362,865 @@ Processing by UrlsController#show as HTML
   [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "ShizSwedishpornOldgrannyporn"]]
 Redirected to http://www.google.com
 Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-08-29 23:06:26 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 125ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:27 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:06:35 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"http://usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:06:35.678950"], ["newurl", "YummymamaQueefSchoolgirlsex"], ["oldurl", "http://usps.com"], ["updated_at", "2015-08-30 06:06:35.678950"]]
+  [1m[35m (162.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/YummymamaQueefSchoolgirlsex/edit
+Completed 302 Found in 181ms (ActiveRecord: 163.1ms)
+
+
+Started GET "/urls/YummymamaQueefSchoolgirlsex/edit" for 127.0.0.1 at 2015-08-29 23:06:35 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"YummymamaQueefSchoolgirlsex"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "YummymamaQueefSchoolgirlsex"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 65ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:06:35 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:06:36 -0700
+
+
+Started GET "/urls/YummymamaQueefSchoolgirlsex" for 127.0.0.1 at 2015-08-29 23:06:41 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"YummymamaQueefSchoolgirlsex"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "YummymamaQueefSchoolgirlsex"]]
+Redirected to http://usps.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:07:06 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 06:07:06.784763"], ["newurl", "FaigsNiceassKinky"], ["oldurl", "www.usps.com"], ["updated_at", "2015-08-30 06:07:06.784763"]]
+  [1m[36m (167.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/FaigsNiceassKinky/edit
+Completed 302 Found in 172ms (ActiveRecord: 168.1ms)
+
+
+Started GET "/urls/FaigsNiceassKinky/edit" for 127.0.0.1 at 2015-08-29 23:07:06 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FaigsNiceassKinky"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 43ms (Views: 41.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:07:07 -0700
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:12 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:17 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:18 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/FaigsNiceassKinky" for 127.0.0.1 at 2015-08-29 23:07:48 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"FaigsNiceassKinky"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "FaigsNiceassKinky"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:10:53.518695"], ["newurl", "MotherdaughterHentaifutanariDpcreampie"], ["oldurl", "www.usps.com"], ["updated_at", "2015-08-30 06:10:53.518695"]]
+  [1m[35m (191.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/MotherdaughterHentaifutanariDpcreampie/edit
+Completed 302 Found in 201ms (ActiveRecord: 193.1ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie/edit" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 53ms (Views: 50.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:10:53 -0700
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:57 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:10:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:11:03 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 5ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/MotherdaughterHentaifutanariDpcreampie" for 127.0.0.1 at 2015-08-29 23:11:03 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"MotherdaughterHentaifutanariDpcreampie"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 4ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:11:17 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:11:17.849893"], ["newurl", "ReallifepornAngelpornRomanianporn"], ["oldurl", "www.usps.com"], ["updated_at", "2015-08-30 06:11:17.849893"]]
+  [1m[35m (155.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/ReallifepornAngelpornRomanianporn/edit
+Completed 302 Found in 166ms (ActiveRecord: 156.1ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn/edit" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 61.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:18 -0700
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/ReallifepornAngelpornRomanianporn" for 127.0.0.1 at 2015-08-29 23:11:22 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"ReallifepornAngelpornRomanianporn"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+Redirected to http://localhost:3000www.usps.com
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:11:38 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:11:38.741540"], ["newurl", "KoreanteenpornMandingoanalScouseporn"], ["oldurl", "www.usps.com"], ["updated_at", "2015-08-30 06:11:38.741540"]]
+  [1m[35m (164.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/KoreanteenpornMandingoanalScouseporn/edit
+Completed 302 Found in 178ms (ActiveRecord: 164.1ms)
+
+
+Started GET "/urls/KoreanteenpornMandingoanalScouseporn/edit" for 127.0.0.1 at 2015-08-29 23:11:38 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"KoreanteenpornMandingoanalScouseporn"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "KoreanteenpornMandingoanalScouseporn"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:39 -0700
+
+
+Started GET "/urls/KoreanteenpornMandingoanalScouseporn" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"KoreanteenpornMandingoanalScouseporn"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "KoreanteenpornMandingoanalScouseporn"]]
+  Rendered urls/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:11:42 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 06:12:00.548448"], ["newurl", "TeenblowjobNakedslutsLesbiangangbang"], ["oldurl", "www.usps.com"], ["updated_at", "2015-08-30 06:12:00.548448"]]
+  [1m[36m (169.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/TeenblowjobNakedslutsLesbiangangbang/edit
+Completed 302 Found in 181ms (ActiveRecord: 169.1ms)
+
+
+Started GET "/urls/TeenblowjobNakedslutsLesbiangangbang/edit" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"TeenblowjobNakedslutsLesbiangangbang"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TeenblowjobNakedslutsLesbiangangbang"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 67ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:00 -0700
+
+
+Started GET "/urls/TeenblowjobNakedslutsLesbiangangbang" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TeenblowjobNakedslutsLesbiangangbang"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TeenblowjobNakedslutsLesbiangangbang"]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:04 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:12:22.197202"], ["newurl", "OutdoorxxxZimbabweanpornDoctor"], ["oldurl", "www.usps.com"], ["updated_at", "2015-08-30 06:12:22.197202"]]
+  [1m[35m (141.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/OutdoorxxxZimbabweanpornDoctor/edit
+Completed 302 Found in 149ms (ActiveRecord: 142.1ms)
+
+
+Started GET "/urls/OutdoorxxxZimbabweanpornDoctor/edit" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"OutdoorxxxZimbabweanpornDoctor"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "OutdoorxxxZimbabweanpornDoctor"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:22 -0700
+
+
+Started GET "/urls/OutdoorxxxZimbabweanpornDoctor" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"OutdoorxxxZimbabweanpornDoctor"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "OutdoorxxxZimbabweanpornDoctor"]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:25 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:12:56 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-08-30 06:12:56.680420"], ["newurl", "AngeldarkOiledsexOil"], ["oldurl", "www.uhttp://www.usps.com"], ["updated_at", "2015-08-30 06:12:56.680420"]]
+  [1m[36m (160.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/AngeldarkOiledsexOil/edit
+Completed 302 Found in 170ms (ActiveRecord: 162.1ms)
+
+
+Started GET "/urls/AngeldarkOiledsexOil/edit" for 127.0.0.1 at 2015-08-29 23:12:56 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"AngeldarkOiledsexOil"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "AngeldarkOiledsexOil"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 58ms (Views: 54.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:57 -0700
+
+
+Started GET "/urls/AngeldarkOiledsexOil" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"AngeldarkOiledsexOil"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "AngeldarkOiledsexOil"]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 59ms (Views: 57.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:12:59 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"www.usps.com"}, "commit"=>"Make SketchyURL"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-08-30 06:13:44.059934"], ["newurl", "TrainsexLuckyTubejapanese"], ["oldurl", "http://www.usps.com"], ["updated_at", "2015-08-30 06:13:44.059934"]]
+  [1m[35m (120.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/TrainsexLuckyTubejapanese/edit
+Completed 302 Found in 130ms (ActiveRecord: 121.1ms)
+
+
+Started GET "/urls/TrainsexLuckyTubejapanese/edit" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"TrainsexLuckyTubejapanese"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TrainsexLuckyTubejapanese"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 77ms (Views: 66.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:44 -0700
+
+
+Started GET "/urls/TrainsexLuckyTubejapanese" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TrainsexLuckyTubejapanese"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TrainsexLuckyTubejapanese"]]
+  Rendered urls/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-08-29 23:13:47 -0700
+
+
+Started GET "/urls/TrainsexLuckyTubejapanese" for 127.0.0.1 at 2015-08-29 23:13:56 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TrainsexLuckyTubejapanese"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TrainsexLuckyTubejapanese"]]
+Redirected to http://www.usps.com
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
