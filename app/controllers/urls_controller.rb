@@ -7,19 +7,7 @@ class UrlsController < ApplicationController
   	temp = randphrase(3)
   	@url = Url.new(url_params)
   	@url.newurl = temp
-  	temp2 = @url.oldurl
-  	temp2 = temp2[0..2]
-  	temp2 = temp2.downcase
-  	if temp2 == 'www'
-  		@url.oldurl = 'http://' + @url.oldurl
-  	end
-  	temp2 = @url.oldurl
-  	temp2 = temp2[0..3]
-  	temp2 = temp2.downcase
-  	if temp2 != 'http'
-  		@url.oldurl = 'http://www.' + @url.oldurl
-  	end  	
-
+  	@url.oldurl = urlclean(@url.oldurl)
   	@url.save
   	redirect_to action: "edit", newurl: @url.newurl
   end  
@@ -48,5 +36,19 @@ class UrlsController < ApplicationController
 		end
 		return ss;
 	end
-
+	private
+	def urlclean(s)
+	  	temp = s[0..2].downcase
+	  	if temp == 'www'
+	  		s = 'http://' + s
+	  	end
+	  	temp = s[0..3].downcase
+	  	if temp != 'http'
+	  		s = 'http://www.' + s
+	  	end  
+	  	if !(s.include? ".")
+	  		s = s + '.com'
+	  	end
+	  	return s	
+	end
 end
