@@ -13,6 +13,13 @@ class UrlsController < ApplicationController
   	if temp2 == 'www'
   		@url.oldurl = 'http://' + @url.oldurl
   	end
+  	temp2 = @url.oldurl
+  	temp2 = temp2[0..3]
+  	temp2 = temp2.downcase
+  	if temp2 != 'http'
+  		@url.oldurl = 'http://www.' + @url.oldurl
+  	end  	
+
   	@url.save
   	redirect_to action: "edit", newurl: @url.newurl
   end  
