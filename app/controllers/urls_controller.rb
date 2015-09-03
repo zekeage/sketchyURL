@@ -39,6 +39,9 @@ class UrlsController < ApplicationController
 	private
 	def urlclean(s)
 	  	temp = s[0..2].downcase
+	  	if !(s.include? ".")
+	  		s = s + '.com'
+	  	end
 	  	if temp == 'www'
 	  		s = 'http://' + s
 	  	end
@@ -46,9 +49,6 @@ class UrlsController < ApplicationController
 	  	if temp != 'http'
 	  		s = 'http://www.' + s
 	  	end  
-	  	if !(s.include? ".")
-	  		s = s + '.com'
-	  	end
 	  	return s	
 	end
 end
