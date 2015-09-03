@@ -6,12 +6,12 @@
 <div id="uform">
 <%= form_for :url,url: urls_path do |f| %>
   <p>
-    <%= f.label :"Please paste your URL into the box below." %><br><br>
+    <!--<%= f.label :"Please paste your URL into the box below." %><br><br>-->
     <%= f.text_field :oldurl %>
   </p>
  
   <p>
-    <%= f.submit :"      Transform this hideous url into something beautiful!      ", id: "ubutton" %>
+    <%= f.submit :"      Click here to upgrade your URL      ", id: "ubutton" %>
   </p>
 <% end %>
 </div>
