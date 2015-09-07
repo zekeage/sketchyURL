@@ -8,7 +8,11 @@ class UrlsController < ApplicationController
   def new
   end
   def create
-  	temp = randphrase(3)
+  	count = 0
+  	begin
+  		temp = randphrase(3)
+  		count = count+1
+  	end while ( Url.exists?(:newurl => temp) and (count<19) )
   	@url = Url.new(url_params)
   	@url.newurl = temp
   	@url.oldurl = urlclean(@url.oldurl)
@@ -35,7 +39,7 @@ class UrlsController < ApplicationController
 	def randphrase(n)
 		ss = ''; count = 0;nw = Pbank.length; 
 		until count >=n 
-			s = Pbank[Rangen.rand(nw)]; 
+			s = Pbank[Rangen.rand(nw)];
 			s.gsub!(/[^0-9A-Za-z]/, '');
 			s.gsub!(/\s/,'-');s.gsub!('_','-');
 			s.capitalize!;
@@ -45,6 +49,7 @@ class UrlsController < ApplicationController
 	end
 	private
 	def urlclean(s)
+		s = s.gsub(/\s+/, "")
 	  	temp = s[0..2].downcase
 	  	if !(s.include? ".")
 	  		s = s + '.com'
