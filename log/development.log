@@ -11024,3 +11024,1010 @@ Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-02 23:18:08 -07
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-02 23:18:08 -0700
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 303ms (Views: 288.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-09-07 14:54:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (80.1ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-07 14:54:17 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-09-07 14:54:17 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-07 14:54:17 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-07 14:54:17 -0700
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-09-07 14:54:24 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"facebook"}, "commit"=>"      Click here to upgrade your URL      "}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (24.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-09-07 21:54:24.469204"], ["newurl", "TussiRedheadfuckUglypussy"], ["oldurl", "http://www.facebook.com"], ["updated_at", "2015-09-07 21:54:24.469204"]]
+  [1m[35m (139.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/TussiRedheadfuckUglypussy/edit
+Completed 302 Found in 184ms (ActiveRecord: 164.1ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy/edit" for 127.0.0.1 at 2015-09-07 14:54:24 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 14:54:38 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 14:55:18 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-09-07 15:02:53 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.1ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:02:59 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:05:31 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 500 Internal Server Error in 7ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/urls_controller.rb:17:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:05:55 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 500 Internal Server Error in 6ms
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/urls_controller.rb:17:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:08:16 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 8ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:08:30 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-09-07 15:09:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (69.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:09:20 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 9ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:09:49 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  commit transaction
+Completed 302 Found in 8ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:11:08 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:12:17 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (1.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 6ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:12:30 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:12:59 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "urls" SET "updated_at" = ? WHERE "urls"."newurl" = 'TussiRedheadfuckUglypussy'  [["updated_at", "2015-09-07 22:12:59.098050"]]
+  [1m[36m (113.1ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 126ms (ActiveRecord: 114.1ms)
+
+
+Started GET "/urls/TussiRedheadfuckUglypussy" for 127.0.0.1 at 2015-09-07 15:13:11 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"TussiRedheadfuckUglypussy"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "TussiRedheadfuckUglypussy"]]
+Redirected to http://www.facebook.com
+Completed 302 Found in 7ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2015-09-07 15:28:15 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by UrlsController#index as HTML
+Completed 500 Internal Server Error in 31ms
+
+ActionView::MissingTemplate (Missing template urls/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "D:/Shared Documents/GitHub/sketchyURL/app/views"
+):
+  actionview (4.1.8) lib/action_view/path_set.rb:46:in `find'
+  actionview (4.1.8) lib/action_view/lookup_context.rb:124:in `find'
+  C:in `find_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:41:in `determine_template'
+  actionview (4.1.8) lib/action_view/renderer/template_renderer.rb:8:in `render'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:42:in `render_template'
+  actionview (4.1.8) lib/action_view/renderer/renderer.rb:23:in `render'
+  actionview (4.1.8) lib/action_view/rendering.rb:99:in `_render_template'
+  actionpack (4.1.8) lib/action_controller/metal/streaming.rb:217:in `_render_template'
+  actionview (4.1.8) lib/action_view/rendering.rb:82:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/action_controller/metal/renderers.rb:32:in `render_to_body'
+  actionpack (4.1.8) lib/abstract_controller/rendering.rb:25:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block (2 levels) in render'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `block in ms'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/benchmark.rb:294:in `realtime'
+  activesupport (4.1.8) lib/active_support/core_ext/benchmark.rb:12:in `ms'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:41:in `block in render'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:84:in `cleanup_view_runtime'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:25:in `cleanup_view_runtime'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:40:in `render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (4.1.8) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:189:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:113:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:229:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:166:in `block in halting'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:86:in `run_callbacks'
+  actionpack (4.1.8) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `block in instrument'
+  activesupport (4.1.8) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.1.8) lib/active_support/notifications.rb:159:in `instrument'
+  actionpack (4.1.8) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.1.8) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.1.8) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.1.8) lib/abstract_controller/base.rb:136:in `process'
+  actionview (4.1.8) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.1.8) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.1.8) lib/action_controller/metal.rb:232:in `block in action'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:82:in `dispatch'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:50:in `call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:73:in `block in call'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `each'
+  actionpack (4.1.8) lib/action_dispatch/journey/router.rb:59:in `call'
+  actionpack (4.1.8) lib/action_dispatch/routing/route_set.rb:678:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/flash.rb:254:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.1.8) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.1.8) lib/active_record/connection_adapters/abstract/connection_pool.rb:621:in `call'
+  activerecord (4.1.8) lib/active_record/migration.rb:380:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.1.8) lib/active_support/callbacks.rb:82:in `run_callbacks'
+  actionpack (4.1.8) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (3.0ms)
+
+
+Started GET "/url" for 127.0.0.1 at 2015-09-07 15:28:31 -0700
+
+ActionController::RoutingError (No route matches [GET] "/url"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (85.1ms)
+
+
+Started GET "/url" for 127.0.0.1 at 2015-09-07 15:29:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/url"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.0ms)
+
+
+Started GET "/urls" for 127.0.0.1 at 2015-09-07 15:29:31 -0700
+Processing by UrlsController#index as HTML
+  Rendered urls/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-09-07 15:31:15 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.0ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-09-07 15:31:20 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"facebook"}, "commit"=>"      Click here to upgrade your URL      "}
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-09-07 22:31:20.276382"], ["newurl", "PussysexVirginteenRoughporn"], ["oldurl", "http://www.facebook.com"], ["updated_at", "2015-09-07 22:31:20.276382"]]
+  [1m[35m (462.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/PussysexVirginteenRoughporn/edit
+Completed 302 Found in 487ms (ActiveRecord: 463.4ms)
+
+
+Started GET "/urls/PussysexVirginteenRoughporn/edit" for 127.0.0.1 at 2015-09-07 15:31:20 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"PussysexVirginteenRoughporn"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "PussysexVirginteenRoughporn"]]
+  Rendered urls/edit.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 52ms (Views: 47.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-09-07 15:31:59 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"google"}, "commit"=>"      Click here to upgrade your URL      "}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mINSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", "2015-09-07 22:32:08.540961"], ["newurl", "DpanalDominationpornTeenamateur"], ["oldurl", "http://www.google.com"], ["updated_at", "2015-09-07 22:32:08.540961"]]
+  [1m[35m (194.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/urls/DpanalDominationpornTeenamateur/edit
+Completed 302 Found in 198ms (ActiveRecord: 194.1ms)
+
+
+Started GET "/urls/DpanalDominationpornTeenamateur/edit" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"DpanalDominationpornTeenamateur"}
+  [1m[36mUrl Load (1.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "DpanalDominationpornTeenamateur"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 85ms (Views: 80.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-07 15:32:08 -0700
+
+
+Started GET "/urls/PussysexVirginteenRoughporn" for 127.0.0.1 at 2015-09-07 15:32:17 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"PussysexVirginteenRoughporn"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "PussysexVirginteenRoughporn"]]
+Redirected to http://www.facebook.com
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "urls" SET "updated_at" = ? WHERE "urls"."newurl" = 'PussysexVirginteenRoughporn'  [["updated_at", "2015-09-07 22:32:17.337299"]]
+  [1m[36m (161.1ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 167ms (ActiveRecord: 161.1ms)
+
+
+Started GET "/urls/DpanalDominationpornTeenamateur" for 127.0.0.1 at 2015-09-07 15:32:18 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"DpanalDominationpornTeenamateur"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "DpanalDominationpornTeenamateur"]]
+Redirected to http://www.google.com
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "urls" SET "updated_at" = ? WHERE "urls"."newurl" = 'DpanalDominationpornTeenamateur'  [["updated_at", "2015-09-07 22:32:18.920430"]]
+  [1m[36m (165.1ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 169ms (ActiveRecord: 166.1ms)
+
+
+Started GET "/urls/DpanalDominationpornTeenamateur" for 127.0.0.1 at 2015-09-07 15:35:16 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"DpanalDominationpornTeenamateur"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "DpanalDominationpornTeenamateur"]]
+Redirected to http://www.google.com
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "urls" SET "updated_at" = ? WHERE "urls"."newurl" = 'DpanalDominationpornTeenamateur'  [["updated_at", "2015-09-07 22:35:16.897378"]]
+  [1m[36m (463.3ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 470ms (ActiveRecord: 464.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/assets/stylesheets/welcome.css.css" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+ActionController::RoutingError (No route matches [GET] "/assets/stylesheets/welcome.css.css"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:23 -0700
+
+
+Started GET "/urls" for 127.0.0.1 at 2015-09-07 15:35:27 -0700
+Processing by UrlsController#index as HTML
+  [1m[35mUrl Load (0.0ms)[0m  SELECT "urls".* FROM "urls"  WHERE (updated_at <= '2015-09-07 22:34:27.686824')
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "http://localhost:3000/urlsDild0sWankSmokingporn"]]
+  [1m[36m (163.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", nil]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", nil]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", nil]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "test"]]
+  [1m[36m (134.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "GirlfuckPokemonpornMotherandson"]]
+  [1m[35m (152.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/AssfaceCosplaypornCatwomanporn"]]
+  [1m[36m (163.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/MonkleighJenavevejolieIndiangirlmms"]]
+  [1m[35m (135.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/IndiansexvideoCheerleaderHandjob"]]
+  [1m[36m (159.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/VintagepornShitzLatchkeychild"]]
+  [1m[35m (124.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/CockcumIndiangirlpornSharingmywife"]]
+  [1m[36m (86.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/PaulinajamesInterracialwifeWetporn"]]
+  [1m[35m (103.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/ExgirlfriendEbonyOldschoolporn"]]
+  [1m[36m (85.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/DariagloverCumUrinalspy"]]
+  [1m[35m (92.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/LesbianBigtitsatschoolXxxbigtits"]]
+  [1m[36m (87.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/AnallickingSexvideosColombianporn"]]
+  [1m[35m (74.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/BitchAnalmassageBasterds"]]
+  [1m[36m (87.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/RebecalinaresDanadearmondFuckporn"]]
+  [1m[35m (85.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "www.sketchyURL.com/FaggotLesbianamateurGreattits"]]
+  [1m[36m (108.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "www.sketchyURL.com/OralqueensKidsPornmassage"]]
+  [1m[35m (97.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "asdTiffanyrayneQuarterbackpornJapanesegame"]]
+  [1m[36m (114.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "http://localhost:3000/urlsNiceblowjobAsianbbwLilythai"]]
+  [1m[35m (108.1ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "http://localhost:3000/urlsFirstanalRileyevansBigblackcock"]]
+  [1m[36m (130.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "http://localhost:3000/urlsPimmelHousewifeFiestaporno"]]
+  [1m[35m (136.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "http://localhost:3000/urlsVaginaOldmancreampieKanker"]]
+  [1m[36m (119.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", nil]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", nil]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", nil]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", nil]]
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", nil]]
+  [1m[35m (0.0ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "FlickshagwellRoughlesbianpornDodo"]]
+  [1m[36m (106.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "MariabellucciSelffuckingLatinxxx"]]
+  [1m[35m (108.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "FilipinaIndiansexGinawild"]]
+  [1m[36m (114.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "XxxmassageCumfountainSkanck"]]
+  [1m[35m (109.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "FlexibleFagJewish"]]
+  [1m[36m (125.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "ShizSwedishpornOldgrannyporn"]]
+  [1m[35m (107.1ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "YummymamaQueefSchoolgirlsex"]]
+  [1m[36m (125.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "FaigsNiceassKinky"]]
+  [1m[35m (98.1ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "MotherdaughterHentaifutanariDpcreampie"]]
+  [1m[36m (86.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "ReallifepornAngelpornRomanianporn"]]
+  [1m[35m (89.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "KoreanteenpornMandingoanalScouseporn"]]
+  [1m[36m (94.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "TeenblowjobNakedslutsLesbiangangbang"]]
+  [1m[35m (77.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "OutdoorxxxZimbabweanpornDoctor"]]
+  [1m[36m (73.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "AngeldarkOiledsexOil"]]
+  [1m[35m (82.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (20.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "TrainsexLuckyTubejapanese"]]
+  [1m[36m (97.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "AmateurcreampieEnglishdubbedhentaiYogapants"]]
+  [1m[35m (83.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "HotfreepornUniformxxxLolita"]]
+  [1m[36m (72.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "FuckerCuminmouthcompilationTorylane"]]
+  [1m[35m (83.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "UpclosepussyEighttubeMandingoporn"]]
+  [1m[36m (84.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "OralsexSh1tPussy"]]
+  [1m[35m (81.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "PeggingWebcamSexmassage"]]
+  [1m[36m (98.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "BarbieSexteacherDrunkgirlfucked"]]
+  [1m[35m (86.1ms)[0m  commit transaction
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "PissingYoungandoldEbonydeepthroat"]]
+  [1m[36m (88.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mDELETE FROM "urls" WHERE "urls"."newurl" = ?[0m  [["newurl", "TussiRedheadfuckUglypussy"]]
+  [1m[35m (96.1ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM "urls" WHERE "urls"."newurl" = ?  [["newurl", "PussysexVirginteenRoughporn"]]
+  [1m[36m (87.1ms)[0m  [1mcommit transaction[0m
+  Rendered urls/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5389ms (Views: 92.1ms | ActiveRecord: 4972.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/urls.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/urls.css?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-07 15:35:33 -0700
+
+
+Started GET "/urls/DpanalDominationpornTeenamateur" for 127.0.0.1 at 2015-09-07 15:35:51 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"DpanalDominationpornTeenamateur"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "DpanalDominationpornTeenamateur"]]
+Redirected to http://www.google.com
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  UPDATE "urls" SET "updated_at" = ? WHERE "urls"."newurl" = 'DpanalDominationpornTeenamateur'  [["updated_at", "2015-09-07 22:35:51.256253"]]
+  [1m[36m (102.1ms)[0m  [1mcommit transaction[0m
+Completed 302 Found in 109ms (ActiveRecord: 102.1ms)
+
+
+Started GET "/urls/PussysexVirginteenRoughporn" for 127.0.0.1 at 2015-09-07 15:35:58 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"PussysexVirginteenRoughporn"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "PussysexVirginteenRoughporn"]]
+Completed 404 Not Found in 2ms
+
+ActiveRecord::RecordNotFound (Couldn't find Url with 'newurl'=PussysexVirginteenRoughporn):
+  app/controllers/urls_controller.rb:19:in `show'
+
+
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (69.1ms)
+
+
+Started POST "/urls" for 127.0.0.1 at 2015-09-07 15:36:21 -0700
+Processing by UrlsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"drVqxvAPsXkutUhBJcqeLf17OAYtFLNBNAGR6Z5fiWM=", "url"=>{"oldurl"=>"facebook"}, "commit"=>"      Click here to upgrade your URL      "}
+  [1m[36m (1.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.0ms)[0m  INSERT INTO "urls" ("created_at", "newurl", "oldurl", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", "2015-09-07 22:36:21.620429"], ["newurl", "HotassBigboobiesTeenpov"], ["oldurl", "http://www.facebook.com"], ["updated_at", "2015-09-07 22:36:21.620429"]]
+  [1m[36m (441.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/urls/HotassBigboobiesTeenpov/edit
+Completed 302 Found in 447ms (ActiveRecord: 442.3ms)
+
+
+Started GET "/urls/HotassBigboobiesTeenpov/edit" for 127.0.0.1 at 2015-09-07 15:36:22 -0700
+Processing by UrlsController#edit as HTML
+  Parameters: {"newurl"=>"HotassBigboobiesTeenpov"}
+  [1m[35mUrl Load (0.0ms)[0m  SELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1  [["newurl", "HotassBigboobiesTeenpov"]]
+  Rendered urls/edit.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 49ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/urls/HotassBigboobiesTeenpov" for 127.0.0.1 at 2015-09-07 15:36:24 -0700
+Processing by UrlsController#show as HTML
+  Parameters: {"newurl"=>"HotassBigboobiesTeenpov"}
+  [1m[36mUrl Load (0.0ms)[0m  [1mSELECT  "urls".* FROM "urls"  WHERE "urls"."newurl" = ? LIMIT 1[0m  [["newurl", "HotassBigboobiesTeenpov"]]
+Redirected to http://www.facebook.com
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.0ms)[0m  [1mUPDATE "urls" SET "updated_at" = ? WHERE "urls"."newurl" = 'HotassBigboobiesTeenpov'[0m  [["updated_at", "2015-09-07 22:36:24.299985"]]
+  [1m[35m (97.1ms)[0m  commit transaction
+Completed 302 Found in 103ms (ActiveRecord: 97.1ms)
