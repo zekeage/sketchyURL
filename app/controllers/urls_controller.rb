@@ -3,7 +3,6 @@ Rangen = Random.new;
 class UrlsController < ApplicationController
   def index
   	Url.where("updated_at <= ?", Time.now - 7.days).destroy_all
-  	puts 'HELLO'
   end
   def new
   end
