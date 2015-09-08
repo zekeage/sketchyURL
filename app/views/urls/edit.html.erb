@@ -1,4 +1,7 @@
 <%= stylesheet_link_tag "/assets/stylesheets/welcome.css.css" %>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
 <script type="text/javascript">
 window.onload = function() {
     var t=document.getElementById('newurl');
@@ -11,10 +14,17 @@ function putinclip()
 	document.execCommand('copy');
 }
 </script>
+<script>
+  $(document).ready(function() {
+    var clip = new ZeroClipboard($("#clipbutton"))
+  });
+
+</script>
+
 <p>
 <div id="uform">
   <label>You are moist welcome.</label><br><br>
   <textarea readonly rows="3" id = "newurl" ><%= @base[0..(@base.length-6)]  %></textarea>
 </p>
-<button id="clipbutton" onclick="putinclip()"> Put this sexiness into my clipboard! </button>
+<button id="clipbutton" data-clipboard-target='newurl' onclick="putinclip()"> Put this sexiness into my clipboard! </button>
 <div id="uform">
