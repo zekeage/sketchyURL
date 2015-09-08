@@ -1,5 +1,6 @@
 
-<script type="text/javascript" src="ZeroClipboard.js"></script>
+<script type="text/javascript" src=<%= (request.base_url + '/assets/ZeroClipboard.js') %>></script>
+<script>
 window.onload = function() {
     var t=document.getElementById('newurl');
     t.setSelectionRange(0, t.value.length);
