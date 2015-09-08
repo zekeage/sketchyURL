@@ -1,5 +1,6 @@
 
 <script type="text/javascript">
+<script type="text/javascript" src="ZeroClipboard.js"></script>
 window.onload = function() {
     var t=document.getElementById('newurl');
     t.setSelectionRange(0, t.value.length);
@@ -13,8 +14,8 @@ function putinclip()
 </script>
 <script>
   $(document).ready(function() {
-    var clip = new ZeroClipboard(document.getElementById("clipbutton"));
-    //var clip = new ZeroClipboard($("#clipbutton"),{swfPath: 'assets/ZeroClipboard.swf', moviePath : 'assets/ZeroClipboard.swf'});
+    //var clip = new ZeroClipboard(document.getElementById("clipbutton"));
+    var clip = new ZeroClipboard(document.getElementById("clipbutton"),{swfPath: 'ZeroClipboard.swf', moviePath : 'ZeroClipboard.swf'});
   });
 
 </script>

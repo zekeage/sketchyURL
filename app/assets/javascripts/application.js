@@ -13,6 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= depend_on_asset "ZeroClipboard.swf"
-//= require zeroclipboard
 //= require_tree .
