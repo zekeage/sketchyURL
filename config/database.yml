@@ -31,13 +31,13 @@ default: &default
   <<: *<%= ENV['RAILS_DB'] || "sqlite" %>
 
 development:
-  #<<: *mysql
-  <<: *sqlite
+  <<: *mysql
+  #<<: *sqlite
   #database: db/development.sqlite3
 
 test:
-  #<<: *mysql
-  <<: *sqlite
+  <<: *mysql
+  #<<: *sqlite
   #database: db/test.sqlite3
 
 production:
