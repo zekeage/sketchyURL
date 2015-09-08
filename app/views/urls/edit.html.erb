@@ -13,7 +13,7 @@ function putinclip()
 </script>
 <script>
   $(document).ready(function() {
-    var clip = new ZeroClipboard($("#clipbutton"));
+    var clip = new ZeroClipboard(document.getElementById("clipbutton"));
     //var clip = new ZeroClipboard($("#clipbutton"),{swfPath: 'assets/ZeroClipboard.swf', moviePath : 'assets/ZeroClipboard.swf'});
   });
 
@@ -23,6 +23,6 @@ function putinclip()
 <div id="uform">
   <label>You are moist welcome.</label><br><br>
   <textarea readonly rows="3" id = "newurl" ><%= @base[0..(@base.length-6)]  %></textarea>
-</p>
 <button id="clipbutton" data-clipboard-target='newurl' onclick="putinclip()"> Put this sexiness into my clipboard! </button>
 <div id="uform">
+</p>
